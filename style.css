@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400,500;600;700&display=swap');
+body{
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+
+}
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+#about {
+    background: linear-gradient(to right, hsla(231, 76%, 56%, 0.25), rgba(192, 28, 203, 0.173)), url('https://img.freepik.com/free-vector/matrix-style-binary-code-digital-falling-numbers-blue-background_1017-37387.jpg?t=st=1714623527~exp=1714627127~hmac=e56c2d9e200828d7cb69bb795808f89b63ffbd964f07b92eab01e15cc9dc7e4e&w=740');
+    background-position: 0%;
+    background-size: cover;
+}
+#reviews{
+    font: 200;
+    font-style: oblique;
+   background: linear-gradient(to right, hsla(179, 88%, 50%, 0.856), rgba(177, 0, 193, 0.315));
+    background-size: cover;
+}
+#hobby{
+    color: #dad2d4;
+   background: linear-gradient(to right, hsla(315, 80%, 71%, 0.298), rgba(191, 113, 198, 0.226)), url('https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150062008.jpg?t=st=1714495342~exp=1714498942~hmac=27abd3477430c958b5b3aab39b798a5ab770ebdea520a4059aeda6ba59ced39d&w=740');
+}
+#aboutme {
+    background: linear-gradient(to right, hsla(37, 5%, 69%, 0.559), rgba(97, 97, 77, 0.228));
+   float: inline-start;
+    font-size: x-large;
+}
+#family {
+    background: linear-gradient(to right, hsla(231, 76%, 56%, 0.25), rgba(192, 28, 203, 0.173)), url('https://img.freepik.com/free-vector/matrix-style-binary-code-digital-falling-numbers-blue-background_1017-37387.jpg?t=st=1714623527~exp=1714627127~hmac=e56c2d9e200828d7cb69bb795808f89b63ffbd964f07b92eab01e15cc9dc7e4e&w=740');
+    color: #eeeaea;
+    font-style: oblique;
+}
+.nav-item {
+    color: #000000;
+}
+.navbar {
+    background: black;
+   background-size: 2px;
+}
+.navbar .nav-link:hover{
+    color: var(--bg3) !important;
+    padding: 10px 28px;
+    background-color: rgb(218, 249, 95);
+    border: 0px solid transparent;
+    border-radius: 2px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.navbar a.active {
+    color: rgb(12, 11, 11);
+    border-bottom: 2px solid rgba(185, 233, 15, 0.332);
+    background-color: rgba(38, 230, 230, 0.295);
+    color: rgb(38, 9, 225);
+}
+#banner {
+    background: linear-gradient(to right, hsla(231, 76%, 56%, 0.25), rgba(192, 28, 203, 0.173)), url('https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150062008.jpg?t=st=1714495342~exp=1714498942~hmac=27abd3477430c958b5b3aab39b798a5ab770ebdea520a4059aeda6ba59ced39d&w=740');
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.btn {
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+    border-radius: 3;
+    font-weight: 800;
+}
+
+.btn-brand {
+    color: #dad2d4;
+    background-color: #103fdb;
+    
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #000000;
+    border-color: rgb(17, 3, 10);
+    color: var(--bg3) !important;
+    padding: 10px 28px;
+    background-color: rgb(17, 174, 218);
+    border: 0px solid transparent;
+    border-radius: 2px;
+}
+
+.row {
+    text-align: center;
+}
+
+.icon-img-box {
+    width: 40%;
+}
+
+.card {
+    background-color: rgb(6, 220, 60);
+    transition: 2s;
+}
+
+.card:hover {
+    background-color: #65bdec;
+    transition: 0.3s;
+    color: var(--bg3) !important;
+    padding: 10px 28px;
+    background-color: rgb(38, 230, 221);
+    border: 0px solid transparent;
+    border-radius: 2px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn {
+    color: #fff
+}
+
+.btn-outlined-brand {
+    color: peru;
+    background-color: transparent;
+    border-color: peru;
+}
+
+.btn-outlined-brand:hover {
+    background-color: peru;
+}
+
+
+#cta {
+    background: linear-gradient(to right, hsla(179, 88%, 50%, 0.856), rgba(177, 0, 193, 0.315)), url('https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150062008.jpg?t=st=1714495342~exp=1714498942~hmac=27abd3477430c958b5b3aab39b798a5ab770ebdea520a4059aeda6ba59ced39d&w=740');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 70vh;
+}
+.container {
+    max-width: 1170px;
+    background-color: transparent;
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+ul {
+    list-style: none;
+}
+#reviews a {
+    color: #f443f146;
+ }
+ .card {
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 50px;
+    min-height: fit-content;
+ }
+
+ .p-3{
+    background-color: rgb(13, 13, 11);
+ }
+ .card:hover {
+    background-color: rgba(82, 119, 231, 0.416);
+ }
+
+ .card:hover .card-title,
+ .card:hover .card-text,
+ .card:hover .btn {
+    color:rgb(246, 250, 246);
+ }
+#reviews {
+    background: linear-gradient(to right, hsla(179, 88%, 50%, 0.856), rgba(177, 0, 193, 0.315)),url('https://img.freepik.com/free-vector/matrix-style-binary-code-digital-falling-numbers-blue-background_1017-37387.jpg?t=st=1714623527~exp=1714627127~hmac=e56c2d9e200828d7cb69bb795808f89b63ffbd964f07b92eab01e15cc9dc7e4e&w=740');
+}
+ .testimonials {
+    color: #ddd6d8;
+    background-color: #01141a;
+    padding: 30px;
+    border-radius: 50px;
+ }
+ .testimonials:hover {
+    color: var(--bg3) !important;
+    padding: 10px 28px;
+    background-color: rgba(147, 247, 244, 0.384);
+    border: 0px solid transparent;
+    border-radius: 2px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+ }
+
+ .testimonials img{
+    width: 65px;
+    border-radius: 100px;
+    height: 65px;
+ }
+
+ #reviews a {
+   color: var(--white);
+}
+
+.footer-col{
+    text-align: center;
+    width: 20%;
+    padding: 0 10px;
+}
+.footer-col h4{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #5207db;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+    background-color: rgb(213, 233, 116);
+    transition: all 0.3s ease;
+}
+.footer-col h5:hover{
+    color: #ffffff;
+    padding-left: 10px;
+}
+.footer-col h5::before{
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 500px;
+    width: 500x;
+    background-color: rgba(18, 3, 3, 0.972);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #e91e63;
+    background-color: #ffffff;
+}
+@media(max-width: 767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+    .footer-col{
+        width: 100%;
+}
+}
+.navbar-brand{
+    background-color: #000000;
+}
